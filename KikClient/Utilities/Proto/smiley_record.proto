@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SmileyRecord {
+	string category = 1;
+	string id = 2;
+	string title = 3;
+	string text = 4;
+	int64 install_date = 5;
+}

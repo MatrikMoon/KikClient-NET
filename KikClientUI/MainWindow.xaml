@@ -1,0 +1,35 @@
+﻿<Window x:Class="KikClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KikClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Testing">
+                <Grid Background="#FFE5E5E5">
+                    <Button x:Name="TestPasskeyButton" Content="TestPasskey" HorizontalAlignment="Left" Margin="190,33,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="UsernameBox" Text="Username" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="PasswordBox" Text="Password" HorizontalAlignment="Left" Margin="135,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <Button x:Name="TestKeysButton" Content="Test Keys" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top"/>
+                    <Button x:Name="TestParserButton" Content="TestParser" HorizontalAlignment="Left" Margin="70,33,0,0" VerticalAlignment="Top"/>
+                    <Button x:Name="TestUUIDButton" Content="TestUUID" HorizontalAlignment="Left" Margin="132,33,0,0" VerticalAlignment="Top"/>
+                    <Button x:Name="TestLoginButton" Content="Log In" HorizontalAlignment="Left" Margin="260,8,0,0" VerticalAlignment="Top"/>
+                    <Button x:Name="TestProtobufButton" Content="TestProtobuf" HorizontalAlignment="Left" Margin="260,33,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="ResultsBox" HorizontalAlignment="Center" Margin="0,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="774" Height="174"/>
+                    <TextBox x:Name="XmppCraftingBox" HorizontalAlignment="Center" Margin="0,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="774" Height="140"/>
+                    <Button x:Name="SendXmppButton" Content="Send XMPP" HorizontalAlignment="Left" Margin="681,33,0,0" VerticalAlignment="Top" Click="SendXmppButton_Click" Width="103"/>
+                    <Button x:Name="TestSmileysButton" Content="Add Smileys" HorizontalAlignment="Left" Margin="336,33,0,0" VerticalAlignment="Top" Click="TestSmileysButton_Click"/>
+                    <Button x:Name="TestReflectionButton" Content="TestReflection" HorizontalAlignment="Left" Margin="410,33,0,0" VerticalAlignment="Top" Click="TestReflectionButton_Click"/>
+                    <Button x:Name="TestImages" Content="TestImages" HorizontalAlignment="Left" Margin="492,33,0,0" VerticalAlignment="Top" Click="TestImages_Click"/>
+                    <Button x:Name="TestBot" Content="TestBot" HorizontalAlignment="Left" Margin="560,33,0,0" VerticalAlignment="Top" Click="TestBot_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Chat">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
