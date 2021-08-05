@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KikClientUI", "KikClientUI\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KikClient", "KikClient\KikClient.csproj", "{C4D27F1C-30D0-47E8-B679-05B9951ADCFE}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "Demo\Demo.csproj", "{E590B450-D7D0-47FE-8A01-C5CC6C17E0CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C4D27F1C-30D0-47E8-B679-05B9951ADCFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4D27F1C-30D0-47E8-B679-05B9951ADCFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4D27F1C-30D0-47E8-B679-05B9951ADCFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E590B450-D7D0-47FE-8A01-C5CC6C17E0CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E590B450-D7D0-47FE-8A01-C5CC6C17E0CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E590B450-D7D0-47FE-8A01-C5CC6C17E0CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E590B450-D7D0-47FE-8A01-C5CC6C17E0CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

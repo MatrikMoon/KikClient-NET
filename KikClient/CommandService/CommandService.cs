@@ -94,7 +94,7 @@ namespace KikClient.CommandService
                 {
                     await Client.Message(groupJid, "That is an admin-only command.");
                 }
-                else if (command.Method.GetCustomAttribute(typeof(RequireAdminAttribute)) != null && groupJid.GetUsernameFromJid() != "GROUP")
+                else if (command.Method.GetCustomAttribute(typeof(RequireGroupAttribute)) != null && groupJid.GetUsernameFromJid() != "GROUP")
                 {
                     await Client.Message(groupJid, "That command can only be used in groups.");
                 }
