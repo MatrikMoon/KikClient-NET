@@ -13,7 +13,7 @@ using System.Threading.Tasks;
  * Heavy inspiration from Discord.NET
  */
 
-namespace Casino
+namespace Demo
 {
     class Demo
     {
